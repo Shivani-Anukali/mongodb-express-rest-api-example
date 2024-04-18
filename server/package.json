@@ -3,16 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "format": "prettier --single-quote --check .",
     "prepare": "cd ../ && husky install server/.husky",
     "dev": "nodemon --experimental-modules index.mjs"
+=======
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 89faad8a81554d9c26b576ff97e6a43eb8bf3c4c
   },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
+<<<<<<< HEAD
     "express": "^4.18.2",
     "express-async-errors": "^3.1.1",
     "mongodb": "^4.13.0"
@@ -34,5 +40,12 @@
       "prettier --single-quote --write",
       "eslint --fix"
     ]
+=======
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+>>>>>>> 89faad8a81554d9c26b576ff97e6a43eb8bf3c4c
   }
 }

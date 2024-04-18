@@ -1,4 +1,10 @@
 node_modules
+<<<<<<< HEAD
 yarn.lock
 config.env
 .env
+=======
+package-lock.json
+yarn.lock
+config.env
+>>>>>>> 89faad8a81554d9c26b576ff97e6a43eb8bf3c4c
